@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Reservation</title>
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+    <!-- Style -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Main div -->
+
+    <div class="container">
+
+        <!-- Cinema screen Section-->
+        <div class="screen">
+            <img src="./img/cinema.jpg" alt="">
+        </div>
+
+        <p class="infoText">You have selected <span id="count"></span> seats for a price $ <span id="amount"></span> </p>
+
+        <!-- Seats Section-->
+
+        <!-- Seat row 1-->
+        <div class="seatRow">
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat reserved"><i class="fa-solid fa-couch"></i></div>
+        </div>
+
+        <!-- Seat row 2-->
+        <div class="seatRow">
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        </div>
+
+
+        <!-- Seat row 3-->
+        <div class="seatRow">
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat reserved"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        </div>
+
+
+        <!-- Seat row 4-->
+        <div class="seatRow">
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        </div>
+
+
+        <!-- Seat row 5-->
+        <div class="seatRow">
+            <div class="seat reserved"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+        </div>
+
+
+
+    </div>
+
+
+
+    <!-- Movie list Section -->
+    <div class="movie-list">
+        <select name="" id="movies">
+            <option class="first-option" value="" disabled>Select Movie</option>
+            <option value="15">Saw X</option>
+            <option value="10">Spider Man</option>
+            <option value="14">Terminator</option>
+            <option value="12">King Warrior</option>
+        </select>
+        <div class="icon-container">
+            <i class="fa-solid fa-caret-down"></i>
+        </div>
+    </div>
+
+    <!-- Info Section -->
+    <ul class="info">
+        <li>
+            <div class="seat reserved"><i class="fa-solid fa-couch"></i></div>
+            <span>Reserved Seat</span>
+        </li>
+        <li>
+            <div class="seat selected"><i class="fa-solid fa-couch"></i></div>
+            <span>Selected Seat</span>
+        </li>
+        <li>
+            <div class="seat"><i class="fa-solid fa-couch"></i></div>
+            <span>Free Seat</span>
+        </li>
+    </ul>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
