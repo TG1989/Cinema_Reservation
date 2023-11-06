@@ -13,4 +13,5 @@ Visual Design: The seats are color-coded to indicate their status (selected, res
 
 This project was developed using HTML, CSS, and JavaScript.
 
-![Uploading saas-example-page.gif…]()
+
+![cine](https://github.com/TG1989/Cinema_Reservation/assets/115742987/43afa465-2d48-4667-89d8-39a2a9b4ae25)
